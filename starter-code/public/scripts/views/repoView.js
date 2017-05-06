@@ -11,7 +11,7 @@
     $about.show().siblings().hide();
   };
 
-  const render = Handlebars.compile($('#repo-template').text());
+  const render = Handlebars.compile($('#repo-template').html());
   console.log(render);
 
   // TODO: Remember that new Handlebars template? Let's compile it!
